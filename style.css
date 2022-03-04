@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#difficulty {
+    width: 150px;
+}
+
+#play {
+    padding: 0 2rem;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fffd4;
+}
+
+.result {
+    visibility: hidden;
+
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.small {
+    width: 10%;
+    height: 10%;
+}
+
+.medium {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.large {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+footer {
+    padding: 20px 100px;
+}
+
+.bg-change-safe {
+    background-color: aqua;
+}
+
+.bg-change-bomb {
+    background-color: red;
+}
+
+
+
+.show {
+    visibility: visible;
+}
